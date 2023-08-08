@@ -302,6 +302,7 @@ internal class MauiCameraView: GridLayout
             {
                 previewSession?.StopRepeating();
                 previewSession?.Dispose();
+                //previewBuilder?.Dispose();
             } catch { }
             try
             {
